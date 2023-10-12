@@ -1,0 +1,61 @@
+* {
+  background-color: antiquewhite;
+  /* margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; */
+}
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+.main {
+  display: grid;
+  gap: 30px;
+}
+h1 {
+  margin: 80px auto 0px;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  color: #9a3412;
+}
+.form {
+  background-color: inherit;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+  border-radius: 20px;
+}
+.form label {
+  margin: 10px auto;
+  width: 300px;
+  color: rgb(86, 51, 5);
+}
+.form input {
+  width: 250px;
+  height: 35px;
+  border-radius: 5px;
+  border-color: rgb(86, 51, 5);
+  color: grey;
+}
+.items {
+  display: flex;
+  flex-direction: column;
+}
+.items h3 {
+  padding-left: 250px;
+}
+.items ul {
+  padding-left: 250px;
+  padding-right: 250px;
+  list-style: none;
+  border-radius: 10px;
+}
+.items li {
+  color: maroon;
+  background-color: #fff7ed;
+}
+.btn-delete {
+  margin-left: 800px;
+}
